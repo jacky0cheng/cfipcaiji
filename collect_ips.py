@@ -7,7 +7,7 @@ import os
 urls = ['https://monitor.gacjie.cn/page/cloudflare/ipv4.html', 
         'https://ip.164746.xyz',
         'https://cf.090227.xyz',
-        'https://345673.xyz/',
+        'https://345673.xyz',
         'https://stock.hostmonit.com/CloudFlareYes'
         ]
 
