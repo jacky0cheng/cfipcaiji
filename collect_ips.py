@@ -9,7 +9,7 @@ urls = ['https://monitor.gacjie.cn/page/cloudflare/ipv4.html',
         'https://cf.090227.xyz',
         'https://345673.xyz',
         'https://stock.hostmonit.com/CloudFlareYes',
-        'https://ipdb.030101.xyz/bestproxy'
+        'https://ipdb.030101.xyz/bestproxy/'
         ]
 
 # 正则表达式用于匹配IP地址
@@ -39,7 +39,7 @@ with open('ip.txt', 'w') as file:
             elements = soup.find_all('tr')
         elif url == 'https://stock.hostmonit.com/CloudFlareYes':
             elements = soup.find_all('tr')
-        elif url == 'https://ipdb.030101.xyz/bestproxy':
+        elif url == 'https://ipdb.030101.xyz/bestproxy/':
             elements = soup.find_all('tr')        
         else:
             elements = soup.find_all('li')
